@@ -1,0 +1,20 @@
+
+days = int(input("Enter the number of days late: "))
+
+if days < 0:
+    print("Invalid number of days!")
+
+elif days == 0:
+    print("Book returned on time. No fine.")
+
+elif days <= 5:
+    print("Fine: 50 paisa")
+
+elif days <= 10:
+    print("Fine: Rs. 1")
+
+elif days <= 30:
+    print("Fine: Rs. 5")
+
+else:
+    print("Membership cancelled!")
