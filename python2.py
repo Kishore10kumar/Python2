@@ -5,16 +5,20 @@ if days < 0:
     print("Invalid number of days!")
 
 elif days == 0:
-    print("Book returned on time. No fine.")
+    fine = 0
+    print("No fine. Book returned on time.")
 
 elif days <= 5:
-    print("Fine: 50 paisa")
+    fine = days * 0.50
+    print("Fine: Rs.", fine)
 
 elif days <= 10:
-    print("Fine: Rs. 1")
+    fine = days * 1
+    print("Fine: Rs.", fine)
 
 elif days <= 30:
-    print("Fine: Rs. 5")
+    fine = days * 5
+    print("Fine: Rs.", fine)
 
 else:
     print("Membership cancelled!")
