@@ -1,0 +1,8 @@
+Enter the number of days late: 10
+Fine: Rs. 10
+
+Enter the number of days late: 30
+Fine: Rs. 150
+
+Enter the number of days late: 3
+Fine: Rs. 1.5
